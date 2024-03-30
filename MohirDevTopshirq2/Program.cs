@@ -1,10 +1,11 @@
-﻿Console.Write("Sonni kiriting: ");
-int N = Convert.ToInt32(Console.ReadLine());
+﻿Console.Write("Istalgan raqam kiriting: ");
+int raqam = int.Parse(Console.ReadLine());
 
-int sum = 0;
-for (int i = 1; i <= N; i++)
+if (raqam % 2 == 0)
 {
-    sum += i;
+    Console.WriteLine("Juft");
 }
-
-Console.WriteLine("Natija: " + sum);
+else
+{
+    Console.WriteLine("Toq");
+}
